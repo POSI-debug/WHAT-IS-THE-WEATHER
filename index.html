@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather by Posi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMNoh2fR1yH9JbFfakE5V9NzW2cD4KvoF4XsC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Weather by Posi 
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-cloud"></i>
+            <i class="fas fa-umbrella"></i>
+            <i class="fas fa-bolt"></i>
+        </h1>
+        <div class="search-area">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="searched-weather-info">
+            <div id="searched-city-name"></div>
+            <div id="searched-temperature"></div>
+            <div id="searched-description"></div>
+            <img id="searched-weather-icon" alt="Weather Icon" />
+        </div>
+        <div id="weather-info">
+            <div id="city-name"></div>
+            <div id="temperature"></div>
+            <div id="description"></div>
+            <img id="weather-icon" alt="Weather Icon" />
+        </div>
+        <div class="slideshow">
+            <div class="slides">
+                <div class="slide">
+                    <p>London</p>
+                </div>
+                <div class="slide">
+                    <p>Abuja</p>
+                </div>
+                <div class="slide">
+                    <p>New York</p>
+                </div>
+                <div class="slide">
+                    <p>Tokyo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
